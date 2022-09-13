@@ -7,7 +7,7 @@
 body {
     font-size: 100%;
     background-color: #14213dff;
-    position: relative;
+    position: sticky;
 }
 header {
     background-color:#fca311ff;
@@ -79,6 +79,10 @@ footer{
     width: 100%;
     border-style: solid;
     border-color: #000000ff;
+}
+#icons{
+    display:flex;
+    justify-content: center;
 }
 footer a img{
     width: 6em;
