@@ -33,10 +33,10 @@ nav a{
     padding: 1% 10%;
 }
 main{
-    margin-top: 10em;
-    margin-bottom: 8.9em;
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-top: .5%;
+    margin-bottom: .5%;
+    margin-left: 2%;
+    margin-right: 2%;
     background-color: #e5e5e5ff;
 }
 div { 
@@ -46,7 +46,7 @@ div {
     flex-direction: row;
     flex-wrap: wrap;
     width:100%;
-    padding:1%;
+    padding:3%;
 }
 aside {
     flex-direction: row;
@@ -57,11 +57,12 @@ aside {
     width:100%;
     left:0;
     background-color: #e5e5e5ff;
+    padding: 3%;
 }
 
 #img {
-    height:300px;
-    height: 300px;
+    height:25%;
+    height: 25%;
 }
 section{
     flex-direction: row;
@@ -71,6 +72,7 @@ section{
     font-size: 100%;
     width:100%;
     background-color: #e5e5e5ff;
+    padding:3%;
 }
 footer{
     background-color:#fca311ff;
