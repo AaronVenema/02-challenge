@@ -5,18 +5,26 @@
     font-family: sans-serif;
 }
 body {
-    margin:0;
     font-size: large;
+    margin:0;
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+}
+nav a{
+    padding: 2%;
+    margin: 5%;
 }
 header {
     text-align: center;
     border-style: solid;
     border-color:white;
-    padding:10px;
+    padding:2%;
     margin: 0;
-    font-size: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .contact {
@@ -27,11 +35,9 @@ header {
     flex-wrap: wrap;
 }
 
-/* h2, h3, h4, h5 {
-    flex: 5 1 1; */
-
-
 aside {
     border-style: solid;
     border-color: white;
+    font-size: 100%;
+    width:100%;
 }
