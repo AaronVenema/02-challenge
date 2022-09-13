@@ -5,26 +5,28 @@
     font-family: sans-serif;
 }
 body {
-    font-size: large;
-    margin:0;
+    font-size: 100%;
 }
 nav{
     display:flex;
     flex-wrap:wrap;
+    justify-content: center;
 }
 nav a{
-    padding: 2%;
-    margin: 5%;
+    padding: 1% 10%;
 }
 header {
     text-align: center;
     border-style: solid;
     border-color:white;
-    padding:2%;
-    margin: 0;
+    padding:2% 2%;
+    margin: 0% 0%;
     font-size: 100%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    justify-content: center;
 }
 
 .contact {
@@ -33,11 +35,24 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width:100%;
 }
-
 aside {
+    flex-direction: row;
+    flex-wrap: wrap;
     border-style: solid;
     border-color: white;
     font-size: 100%;
     width:100%;
+    left:0;
+}
+
+footer{
+    flex-direction: row;
+    flex-wrap: wrap;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+    justify-content: center;   
 }
