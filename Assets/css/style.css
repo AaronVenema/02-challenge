@@ -1,24 +1,18 @@
 /* portofolio stylesheet */
 * {
     box-sizing: border-box;
-    background-color: lightblue;
     font-family: sans-serif;
+    color:#000000ff;
 }
 body {
     font-size: 100%;
-}
-nav{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: center;
-}
-nav a{
-    padding: 1% 10%;
+    background-color: #e5e5e5ff;
 }
 header {
+    background-color:#fca311ff;
     text-align: center;
     border-style: solid;
-    border-color:white;
+    border-color:#14213dff;
     padding:2% 2%;
     margin: 0% 0%;
     font-size: 100%;
@@ -28,26 +22,36 @@ header {
     width: 100%;
     justify-content: center;
 }
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+nav a{
+    padding: 1% 10%;
+}
 
-.contact {
+div { 
     border-style: solid;
-    border-color: white;
+    border-color: #14213dff;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width:100%;
+    /* margin: 2%; */
+    padding:1%;
 }
 aside {
     flex-direction: row;
     flex-wrap: wrap;
     border-style: solid;
-    border-color: white;
+    border-color: #14213dff;
     font-size: 100%;
     width:100%;
     left:0;
 }
-
 footer{
+    background-color:#fca311ff;
     flex-direction: row;
     flex-wrap: wrap;
     position:fixed;
@@ -56,3 +60,17 @@ footer{
     width: 100%;
     justify-content: center;   
 }
+.contact {
+    border-style: solid;
+    border-color: #14213dff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+/* $black: #000000ff;
+$oxford-blue: #14213dff;
+$orange-web: #fca311ff;
+$platinum: #e5e5e5ff;
+$white: #ffffffff; */
