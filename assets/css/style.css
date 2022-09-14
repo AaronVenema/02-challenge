@@ -1,96 +1,86 @@
 /* portofolio stylesheet */
 * {
-    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-family: sans-serif;
     color:#000000ff;
-    font-size: 100%;
 }
 body {
     font-size: 100%;
     background-color: #14213dff;
     position: sticky;
+    margin: 2%;
+    padding:3%;
 }
 header {
     background-color:#fca311ff;
-    text-align: center;
     border-style: solid;
     border-color:#000000ff;
-    padding:2% 2%;
-    font-size: 100%;
     position: fixed;
     top: 0;
     left:0;
     width: 100%;
-    justify-content: center;
-    height: 10em;
+    text-align: center;
+    height: 12%;
 }
-nav{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: center;
-}
-nav a{
-    padding: 1% 10%;
-}
+
+/* #hyper{
+    /* padding:2%;
+    object-fit: scale-down; */
+    /* align-self: bottom;
+} */ 
+
+
 main{
-    margin-top: .5%;
-    margin-bottom: .5%;
-    margin-left: 2%;
-    margin-right: 2%;
     background-color: #e5e5e5ff;
 }
 div { 
     border-style: solid;
     border-color: #000000ff;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     width:100%;
+    background-color: #e5e5e5ff;
     padding:3%;
 }
 aside {
-    flex-direction: row;
-    flex-wrap: wrap;
     border-style: solid;
     border-color: #000000ff;
-    font-size: 100%;
     width:100%;
-    left:0;
     background-color: #e5e5e5ff;
-    padding: 3%;
+    text-align: center;
+    padding:3%;
+}
+
+#ul {
+    list-style: none;
 }
 
 #img {
-    height:25%;
-    height: 25%;
+    height:50%;
+    width: 50%;
+    object-fit: scale-down;
 }
 section{
-    flex-direction: row;
-    flex-wrap: wrap;
     border-style: solid;
     border-color: #000000ff;
-    font-size: 100%;
     width:100%;
     background-color: #e5e5e5ff;
     padding:3%;
 }
 footer{
     background-color:#fca311ff;
-    height: auto;
+    height: 12%;
     position:fixed;
     bottom:0;
     left:0;
     width: 100%;
     border-style: solid;
     border-color: #000000ff;
+    text-align: center;
 }
-#icons{
-    display:flex;
-    justify-content: center;
-}
-footer a img{
-    width: 6em;
-    height: 6em;
+#contact{
+    height: 10%;
+    width: 10%;
+    object-fit: scale-down;
 }
 
 /* $black: #000000ff;
