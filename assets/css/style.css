@@ -6,7 +6,7 @@
     color:#000000ff;
 }
 body {
-    font-size: 100%;
+    font-size: auto;
     background-color: #14213dff;
     position: sticky;
     margin: 2%;
@@ -21,15 +21,42 @@ header {
     left:0;
     width: 100%;
     text-align: center;
-    height: 12%;
+    height: auto;
+    padding: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
 }
 
-/* #hyper{
-    /* padding:2%;
-    object-fit: scale-down; */
-    /* align-self: bottom;
-} */ 
+header nav {
+    width: 5px;
+    flex: 1 0 0;
+    margin: auto;
+    padding: auto;
+    border: none;
+    display: flex;
+    justify-content:space-evenly;
+}
+.nav {
+    font-size: auto;
+    font-family: bold;
+    padding: auto;
+    margin:auto
+}
 
+h1 {
+    justify-content: center;
+    font-family: impact;
+    font-size: auto;
+    padding:auto;
+    max-width: 40%;
+}
+
+h2, h3, h4, h5 {
+    font-size: auto;
+    font-family: bold;
+}
 
 main{
     background-color: #e5e5e5ff;
@@ -39,7 +66,6 @@ div {
     border-color: #000000ff;
     width:100%;
     background-color: #e5e5e5ff;
-    padding:3%;
 }
 aside {
     border-style: solid;
@@ -47,7 +73,6 @@ aside {
     width:100%;
     background-color: #e5e5e5ff;
     text-align: center;
-    padding:3%;
 }
 
 #ul {
@@ -57,18 +82,16 @@ aside {
 #img {
     height:50%;
     width: 50%;
-    object-fit: scale-down;
 }
 section{
     border-style: solid;
     border-color: #000000ff;
     width:100%;
     background-color: #e5e5e5ff;
-    padding:3%;
 }
 footer{
     background-color:#fca311ff;
-    height: 12%;
+    height: auto;
     position:fixed;
     bottom:0;
     left:0;
@@ -76,11 +99,32 @@ footer{
     border-style: solid;
     border-color: #000000ff;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
 }
-#contact{
-    height: 10%;
-    width: 10%;
-    object-fit: scale-down;
+
+footer div {
+    width: 10px;
+    flex: 1 0 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+footer div img {
+    padding: auto;
+    margin: auto;
+    height: auto;
+    width: auto;
+    max-width: 45%;
+}
+
+ @media screen and (max-width: 780px){
+    footer div {
+        width: 4px;
+    }
 }
 
 /* $black: #000000ff;
