@@ -65,7 +65,7 @@ h1 {
 
 /* header bold! */
 
-h2, h3, h4, h5 {
+h2, h3, h4, h5, h6 {
     font-size: 30px;
     font-family: bold;
 }
@@ -119,6 +119,8 @@ aside {
     height: 100%;
 }
 /* section styling */
+
+
 
 section{
     display: flex;
