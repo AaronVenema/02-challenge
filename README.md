@@ -5,6 +5,9 @@ Description
 
 This 02-portfolio is an introduction of making a portfolio for the user to be able to showcase work, applications, and contact information utilizing html & css files. Portfolio should deploy and be responsive when resizing the page.  
 
+
+deployment link: https://aaronvenema.github.io/02-challenge/
+github code link:https://github.com/AaronVenema/02-challenge
 Installation
 n/a
 
